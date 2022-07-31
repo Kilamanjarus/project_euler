@@ -24,7 +24,7 @@ while index_a < 1000
         palim_status = true
       else
         palim_status = false
-        break
+        break #this was my major missing piece, as I was only checking palindrones by the last place number or numbers
       end
       index += 1
     end
